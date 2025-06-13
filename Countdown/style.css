@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Helvetica'
+    font-family: Helvetica;
 }
 
 .hero{
@@ -22,44 +22,48 @@
 h1{
     font-size: 5rem;
     font-weight: 500;
-    text-shadow: 2px 2px #030303;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.397)
 }
 
 .waw{
     font-size: 3rem;
     font-weight: 500;
     margin-bottom: 60px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.397)
     
 }
 
 .timebox{
-    background-color: #f7a90057;
+    background-color: #452a0131;
     display: flex;
     gap: 200px;
     padding: -50px;
-    border-radius: 5px;
+    border-radius: 20px;
     justify-content: center;
     flex-wrap: wrap;
     color: white;
+
 }
 
 .time{
     text-align: center;
     
-}
 
+}
 .time h2{
      font-size: 7rem;
     font-weight: 100;
 }
 
-h3{
+h3 {
     text-align: center;
     font-size: 1rem;
     font-weight: 500;
     text-shadow: 2px 2px #030303;
+
 }
 
+/* cellphone */
 @media (max-width: 900px) {
      .hero {
         background-image:url(bg.jpeg) !important;
@@ -70,9 +74,9 @@ h3{
      }   
     
      h1 {
-        font-size: 2.35rem;
+        font-size: 2.17rem;
         font-weight: 400;
-        text-shadow: 1px 1px #030303;
+        text-shadow: 1px 1px 2x rgba(0, 0, 0, 0.2);
         text-align: center;
         margin-top: -150px;
      } 
